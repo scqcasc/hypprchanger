@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-from libs.hyprlib import get_activeworkspace
-from libs.hyprlib import get_random_image
-from libs.hyprlib import set_wallpaper_on_activeworkspace
-from libs.hyprlib import unload_all_images
+from hypprchangerlibs.hyprlib import get_activeworkspace
+from hypprchangerlibs.hyprlib import get_random_image
+from hypprchangerlibs.hyprlib import set_wallpaper_on_activeworkspace
+from hypprchangerlibs.hyprlib import unload_all_images
 import os
 
 wallpaper_storage = os.path.join(os.environ.get('HOME'),'Pictures/wallpapers')

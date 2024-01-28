@@ -1,5 +1,5 @@
 # hypprchanger
-A simple tool for managing your wallpapers in [Hyperland](https://github.com/hyprwm/Hyprland)
+A simple tool for managing your wallpapers in [Hyprland](https://github.com/hyprwm/Hyprland)
 
 This is a tool that changes the hyprpaper wallpaper on all of my monitors automatically.  It can also change the wallpaper on a particular monitor on demand.  It works by randomly selecting a wallpaper from your defined wallpapers directory (currently $HOME/Pictures/wallpapers) and using hypprpaper to set it. 
 

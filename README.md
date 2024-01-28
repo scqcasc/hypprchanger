@@ -24,5 +24,14 @@ Log out then back in.  Logging in will start the hyppyserver process that simply
 
 The bind statement above allows you to update the wallpaper on the active workspace with a keystroke.  I've set mine to CMD-z ... but change to whatever you like.
 
+There is a component I'm adding to allow for simple communication with the server loop.  Currently all it does is shut down the server loop.  If you create a file called '/tmp/ipc.json' with the following content, the loop will stop at it's next run:
+
+```
+"commands": {
+  "execute": [
+    "halt"
+  ]
+}
+```
 
 
